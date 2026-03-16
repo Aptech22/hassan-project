@@ -49,6 +49,13 @@ input:focus,textarea:focus{
   background:#334155;
   border-radius:10px;
 }
+.active
+{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
 </style>
 </head>
 
@@ -65,7 +72,7 @@ input:focus,textarea:focus{
     </div>
 
     <nav class="flex flex-col space-y-6 text-lg font-medium">
-      <a href="#home" onclick="toggleMenu()" class="hover:text-indigo-400">Home</a>
+      <a href="#home" onclick="toggleMenu()" class="hover:text-indigo-400 active">Home</a>
       <a href="#services" onclick="toggleMenu()" class="hover:text-indigo-400">Services</a>
       <a href="#portfolio" onclick="toggleMenu()" class="hover:text-indigo-400">Portfolio</a>
       <a href="#pricing" onclick="toggleMenu()" class="hover:text-indigo-400">Pricing</a>
